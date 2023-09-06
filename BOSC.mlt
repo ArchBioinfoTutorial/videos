@@ -1,0 +1,284 @@
+<?xml version="1.0" standalone="no"?>
+<mlt LC_NUMERIC="C" version="7.8.0" title="Shotcut version 22.06.23" producer="main_bin">
+  <profile description="automatic" width="1280" height="720" progressive="1" sample_aspect_num="1" sample_aspect_den="1" display_aspect_num="16" display_aspect_den="9" frame_rate_num="25" frame_rate_den="1" colorspace="709"/>
+  <chain id="chain0" out="00:01:55.520">
+    <property name="length">00:01:55.560</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/guoyi/Documents/WPS 演讲实录/WPS 演讲实录/BOSC_slide(0703.042156).webm</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">e69e0eab75d68e1c713f6490b17c7162</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">BOSC_slide(0703.042156).webm</property>
+  </chain>
+  <chain id="chain1" out="00:00:50.080">
+    <property name="length">00:00:50.120</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/guoyi/Documents/WPS 演讲实录/WPS 演讲实录/BOSC_slide(0703.042609).webm</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">028bfdf1fe70a9b027203263ef9bad98</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">BOSC_slide(0703.042609).webm</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain2" out="00:02:53.120">
+    <property name="length">00:02:53.160</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/guoyi/Documents/WPS 演讲实录/WPS 演讲实录/BOSC_slide(0703.042808).webm</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">8d1868d7ad5a0f93f9a612e188570e21</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">BOSC_slide(0703.042808).webm</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain3" out="00:01:34.480">
+    <property name="length">00:01:34.520</property>
+    <property name="eof">pause</property>
+    <property name="resource">BOSC part1 - 已经转换.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">cb777fc921cdff1b0dc9211954719d8a</property>
+    <property name="shotcut:caption">BOSC part1 - 已经转换.mp4</property>
+    <property name="xml">was here</property>
+    <property name="ignore_points">1</property>
+  </chain>
+  <chain id="chain4" out="00:06:14.520">
+    <property name="length">00:06:14.560</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/guoyi/Documents/BOSC.wav</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">534c2cf0a5f520e4aaf10c616b05e721</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">BOSC.wav</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain5" out="00:06:14.520">
+    <property name="length">00:06:14.560</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/guoyi/Documents/BOSC.wav</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">534c2cf0a5f520e4aaf10c616b05e721</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">BOSC.wav</property>
+    <property name="xml">was here</property>
+  </chain>
+  <playlist id="main_bin" title="Shotcut version 22.06.23">
+    <property name="shotcut:projectAudioChannels">2</property>
+    <property name="shotcut:projectFolder">0</property>
+    <property name="xml_retain">1</property>
+    <entry producer="chain0" in="00:00:04.840" out="00:01:20.680"/>
+    <entry producer="chain1" in="00:00:04.840" out="00:00:46.080"/>
+    <entry producer="chain2" in="00:00:04.240" out="00:02:47.200"/>
+    <entry producer="chain3" in="00:00:00.000" out="00:01:34.480"/>
+    <entry producer="chain4" in="00:00:00.000" out="00:06:14.520"/>
+    <entry producer="chain5" in="00:00:00.000" out="00:06:14.520"/>
+  </playlist>
+  <producer id="black" in="00:00:00.000" out="00:06:14.520">
+    <property name="length">00:06:14.560</property>
+    <property name="eof">pause</property>
+    <property name="resource">0</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgba</property>
+    <property name="set.test_audio">0</property>
+  </producer>
+  <playlist id="background">
+    <entry producer="black" in="00:00:00.000" out="00:06:14.520"/>
+  </playlist>
+  <chain id="chain7" out="00:01:34.480">
+    <property name="length">00:01:34.520</property>
+    <property name="eof">pause</property>
+    <property name="resource">BOSC part1 - 已经转换.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">cb777fc921cdff1b0dc9211954719d8a</property>
+    <property name="shotcut:caption">BOSC part1 - 已经转换.mp4</property>
+    <property name="xml">was here</property>
+    <property name="ignore_points">0</property>
+  </chain>
+  <chain id="chain6" out="00:01:55.520">
+    <property name="length">00:01:55.560</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/guoyi/Documents/WPS 演讲实录/WPS 演讲实录/BOSC_slide(0703.042156).webm</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">e69e0eab75d68e1c713f6490b17c7162</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">BOSC_slide(0703.042156).webm</property>
+    <filter id="filter1" in="00:00:04.840" out="00:01:20.680">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">1.2</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+  </chain>
+  <chain id="chain8" out="00:00:50.080">
+    <property name="length">00:00:50.120</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/guoyi/Documents/WPS 演讲实录/WPS 演讲实录/BOSC_slide(0703.042609).webm</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">028bfdf1fe70a9b027203263ef9bad98</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">BOSC_slide(0703.042609).webm</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain9" out="00:02:53.120">
+    <property name="length">00:02:53.160</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/guoyi/Documents/WPS 演讲实录/WPS 演讲实录/BOSC_slide(0703.042808).webm</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">8d1868d7ad5a0f93f9a612e188570e21</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">BOSC_slide(0703.042808).webm</property>
+    <property name="xml">was here</property>
+    <filter id="filter0" in="00:00:04.240" out="00:02:47.200">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">8</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+  </chain>
+  <playlist id="playlist1">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V1</property>
+    <entry producer="chain7" in="00:00:00.000" out="00:01:34.320"/>
+    <entry producer="chain6" in="00:00:04.840" out="00:01:20.680"/>
+    <entry producer="chain8" in="00:00:04.840" out="00:00:46.080"/>
+    <blank length="00:00:00.040"/>
+    <entry producer="chain9" in="00:00:04.240" out="00:02:47.200"/>
+    <filter id="filter2" out="00:06:14.520">
+      <property name="mlt_service">avfilter.smartblur</property>
+      <property name="av.luma_radius">2.5</property>
+      <property name="av.chroma_radius">2.5</property>
+      <property name="av.luma_strength">0.5</property>
+      <property name="av.chroma_strength">0.5</property>
+      <property name="av.luma_threshold">3</property>
+      <property name="av.chroma_threshold">3</property>
+    </filter>
+    <filter id="filter3" out="00:06:14.520">
+      <property name="mlt_service">avfilter.fspp</property>
+      <property name="av.quality">5</property>
+      <property name="av.qp">10</property>
+      <property name="av.strength">5.21</property>
+      <property name="disable">1</property>
+    </filter>
+    <filter id="filter4" out="00:06:14.520">
+      <property name="mlt_service">avfilter.vaguedenoiser</property>
+      <property name="shotcut:filter">vaguedenoiser</property>
+      <property name="av.method">garrote</property>
+      <property name="av.nsteps">7</property>
+      <property name="av.threshold">10</property>
+      <property name="av.percent">85</property>
+      <property name="disable">0</property>
+    </filter>
+  </playlist>
+  <chain id="chain10" out="00:06:14.520">
+    <property name="length">00:06:14.560</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/guoyi/Documents/BOSC.wav</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">534c2cf0a5f520e4aaf10c616b05e721</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">BOSC.wav</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain11" out="00:06:14.520">
+    <property name="length">00:06:14.560</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/guoyi/Documents/BOSC.wav</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">534c2cf0a5f520e4aaf10c616b05e721</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">BOSC.wav</property>
+    <property name="xml">was here</property>
+    <filter id="filter5" in="00:01:34.440" out="00:06:14.520">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">6</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+  </chain>
+  <playlist id="playlist0">
+    <property name="shotcut:audio">1</property>
+    <property name="shotcut:name">A1</property>
+    <entry producer="chain10" in="00:00:00.000" out="00:01:34.400"/>
+    <entry producer="chain11" in="00:01:34.440" out="00:06:14.520"/>
+  </playlist>
+  <tractor id="tractor0" title="Shotcut version 22.06.23" in="00:00:00.000" out="00:06:14.520">
+    <property name="shotcut">1</property>
+    <property name="shotcut:projectAudioChannels">2</property>
+    <property name="shotcut:projectFolder">0</property>
+    <property name="shotcut:scaleFactor">0.0627344</property>
+    <track producer="background"/>
+    <track producer="playlist1" hide="audio"/>
+    <track producer="playlist0" hide="video"/>
+    <transition id="transition0">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition2">
+      <property name="a_track">1</property>
+      <property name="b_track">1</property>
+      <property name="version">0.1</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="threads">0</property>
+      <property name="disable">1</property>
+    </transition>
+    <transition id="transition1">
+      <property name="a_track">0</property>
+      <property name="b_track">2</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+  </tractor>
+</mlt>
